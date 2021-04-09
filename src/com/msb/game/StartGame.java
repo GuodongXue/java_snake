@@ -8,14 +8,13 @@ public class StartGame {
         //定义两个数组， 一个是蛇的x坐标， 另外一个是y坐标
 
 
-
+        //这段都是关于jframe的设置
         JFrame jf = new JFrame();
         jf.setTitle("这是guodong写的第一个窗口游戏");
         //窗口弹出的坐标, 对应窗口的宽高
-        int width = Toolkit.getDefaultToolkit().getScreenSize().width;
-        int height = Toolkit.getDefaultToolkit().getScreenSize().height;
-        System.out.println(width);
-        System.out.print(height);
+        //int width = Toolkit.getDefaultToolkit().getScreenSize().width;
+        //int height = Toolkit.getDefaultToolkit().getScreenSize().height;
+
         jf.setBounds(800, 200, 800, 800);
         //设置窗口大小不可调
         jf.setResizable(false);

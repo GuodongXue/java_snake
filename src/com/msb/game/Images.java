@@ -27,4 +27,8 @@ public class Images {
     public static URL headerURL = Images.class.getResource("/images/header.png");
     //将图片封装成一个对象
     public static ImageIcon headerImg = new ImageIcon(headerURL);
+
+    public static URL foodURL = Images.class.getResource("/images/food.png");
+    //将图片封装成一个对象
+    public static ImageIcon foodImg = new ImageIcon(foodURL);
 }
